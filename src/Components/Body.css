@@ -1,0 +1,32 @@
+.my-body {
+    position: absolute;
+    left:20px;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.parent-div {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    border: 2px solid black;
+    height: 350px;
+    width: 320px;
+    background-color:white;     
+
+}
+
+.child-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
