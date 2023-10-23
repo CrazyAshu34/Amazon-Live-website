@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Amazon-Live-website/static/css/main.66c38acf.css",
+    "main.js": "/Amazon-Live-website/static/js/main.c19aa67b.js",
+    "static/js/496.00b14985.chunk.js": "/Amazon-Live-website/static/js/496.00b14985.chunk.js",
+    "static/media/slider9.jpg": "/Amazon-Live-website/static/media/slider9.cfae270bcbfbab589de8.jpg",
+    "static/media/slider5.jpg": "/Amazon-Live-website/static/media/slider5.23af89d8d5bbc66895f4.jpg",
+    "static/media/slider4.jpg": "/Amazon-Live-website/static/media/slider4.2c889d10f8c764e4c910.jpg",
+    "static/media/slider7.jpg": "/Amazon-Live-website/static/media/slider7.e5f095cf30239a5e90d5.jpg",
+    "static/media/slider8.jpg": "/Amazon-Live-website/static/media/slider8.f1f354b4a4c87c480c27.jpg",
+    "static/media/slider6.jpg": "/Amazon-Live-website/static/media/slider6.1ca1457ca5caed43b3ce.jpg",
+    "static/media/slider3.jpg": "/Amazon-Live-website/static/media/slider3.ea14c2f28ffd37530f78.jpg",
+    "static/media/slider1.jpg": "/Amazon-Live-website/static/media/slider1.34d3547dc06ef455aa5d.jpg",
+    "static/media/slider2.jpg": "/Amazon-Live-website/static/media/slider2.14042a091064e65d30c9.jpg",
+    "static/media/Amazon_logo.png": "/Amazon-Live-website/static/media/Amazon_logo.c258172cbbfae08cdc8d.png",
+    "index.html": "/Amazon-Live-website/index.html",
+    "main.66c38acf.css.map": "/Amazon-Live-website/static/css/main.66c38acf.css.map",
+    "main.c19aa67b.js.map": "/Amazon-Live-website/static/js/main.c19aa67b.js.map",
+    "496.00b14985.chunk.js.map": "/Amazon-Live-website/static/js/496.00b14985.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66c38acf.css",
+    "static/js/main.c19aa67b.js"
+  ]
+}
