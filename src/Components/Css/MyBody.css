@@ -1,0 +1,142 @@
+.container {}
+
+.my-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 60%;
+    gap: 10px;
+    overflow: auto;
+    padding: 5px;
+    width: auto;
+    height: auto;
+}
+
+.parent-div {
+    /* border: 2px solid black; */
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    grid-gap: 10px;
+    height: auto;
+    width: 322px;
+    background-color: white;
+}
+
+.child-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    width: 142px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+
+img {
+    width: 150px;
+    height: 117px;
+}
+
+.c5,
+.c11 {
+    height: 292px;
+    width: 290px;
+}
+
+.c5_11-img {
+    height: 280px;
+    width: 300px;
+    padding-left: 12px;
+}
+
+.caption {
+    font-size: 14px;
+}
+
+.my-title {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    display: block;
+    width: 100%;
+    grid-column: 1 / span 2;
+    /* Span the title across 2 columns */
+    margin-bottom: 10px;
+    padding: 0;
+    max-height: 54.6px;
+    font-weight: bolder;
+    font-size: 21px !important;
+    line-height: 27.3px !important;
+}
+
+
+/* my cart for amazon */
+
+.cart-container {
+    display: flex;
+    margin-left: 15px;
+    gap: 10px;
+    /* Adding gap between cart elements */
+
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 20px;
+    /* padding: 20px; */
+    height: 350px;
+    width: 322px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    /* Adding margin-bottom for spacing */
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cart img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.cart p {
+    margin: 0;
+    text-align: center;
+    /* Center the text horizontally */
+}
+
+.cart button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}

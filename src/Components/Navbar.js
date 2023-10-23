@@ -1,9 +1,10 @@
 import React from 'react';
-import './Nav.css';
+import './Css/Nav.css';
 import logo from './Amazon_logo.png';
 
 const Navbar = () => {
-    return (<>
+    return (
+        <div>
         <div className='header'>
             <ul className='myul'>
                 <li><img className='logo' src={logo} alt='logo' /></li>
@@ -62,7 +63,8 @@ const Navbar = () => {
             </ul>
         </div>
 
-    </>);
+    </div>
+    );
 };
 
 export default Navbar;

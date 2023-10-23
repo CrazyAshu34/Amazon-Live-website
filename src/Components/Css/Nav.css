@@ -1,20 +1,18 @@
 .header {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: black;
     color: white;
     padding: 10px;
-    max-width: 100%;
-    box-sizing: border-box;
-    position:sticky;
-    justify-content: center;
-    justify-content:space-between;
+    width: 100%;
 }
 
 .logo {
-    height: 30px;
+    height: 40px;
     width: auto;
     padding: 10px 10px 0 10px;
+    
 }
 
 .myul {
@@ -26,7 +24,7 @@
 }
 
 .inp {
-    height: 23px;
+    height: 33px;
     width: 48vw;
     margin: 0 10px;
     padding: 5px;
@@ -42,7 +40,6 @@
     border-bottom-right-radius: 2px;
     padding: 0;
     margin-left: 0;
-    margin-top: 1px;
     background-color: #fdb03d;
     color: #111;
     border: none;
@@ -65,7 +62,7 @@
 }
 
 .big {
-    font-size: 15px;
+    font-size: 13px;
     margin: 0;
     padding: 0;
 }
@@ -145,4 +142,3 @@ ul.myul-2 li {
     font-size: 15px;
 
 }
-
