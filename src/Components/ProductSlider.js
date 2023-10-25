@@ -41,12 +41,9 @@ function ProductSlider() {
     return (
         <div className="slider">
             <div className='image-container'>
-
-                {/* slice(from specific index to , - till whatever the index) */}
                 {images.slice(startIndex, startIndex + 5).map((image, index) => {
                     return (<img className="myimage" key={index} src={image} alt={`slider-${index}`} />)
                 })}
-
             </div>
             <div className="button-container">
                 <button className="prev" onClick={handlePrev}>{'<'}</button>
@@ -54,6 +51,7 @@ function ProductSlider() {
             </div>
         </div>
     );
+
 }
 
 export default ProductSlider;

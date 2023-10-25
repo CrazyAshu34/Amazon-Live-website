@@ -27,20 +27,30 @@ export default function Body() {
         }
     }
 
+
     function handleNext() {
-        if (currentValue < images.length - 1) {
-            setcurrentValue(currentValue + 1);
-        } else {
-            setcurrentValue(0);
-        }
+        setcurrentValue((prevValue) => {
+            if (prevValue < images.length - 1) {
+                return prevValue + 1;
+            } else {
+                return 0;
+            }
+        });
     }
 
     useEffect(() => {
         const interval = setInterval(() => {
-            handleNext();
+            setcurrentValue((prevValue) => {
+                if (prevValue < images.length - 1) {
+                    return prevValue + 1;
+                } else {
+                    return 0;
+                }
+            });
         }, 4000);
         return () => clearInterval(interval);
-    }, [currentValue]);
+    }, [images.length]);
+
 
 
     return (<div>
